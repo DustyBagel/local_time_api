@@ -1,14 +1,14 @@
 #The time format to use.
-better_chat.time_format (Time Format) enum 24_hour 12_hour,24_hour
+time_format (Time Format) enum 24_hour 12_hour,24_hour
 
 #The order of the day, month and year in the date.
-better_chat.date_order (Date Order) enum day_month_year day_month_year,month_day_year,year_month_day,year_day_month
+date_order (Date Order) enum day_month_year day_month_year,month_day_year,year_month_day,year_day_month
 
 #The character used to separate the different numbers in the date.
-better_chat.date_separator (Date Separator Character) enum slash slash,dash,period,comma
+date_separator (Date Separator Character) enum slash slash,dash,period,comma
 
 #The setting for what timezone you wnat to use.
-better_chat.timezone (Timezone) enum UTC_00_00 UTC_minus_12,UTC_minus_11,UTC_minus_10,UTC_minus_09_30,UTC_minus_09,UTC_minus_08,UTC_minus_07,UTC_minus_06,UTC_minus_05,UTC_minus_04_30,UTC_minus_04,UTC_minus_03_30,UTC_minus_03,UTC_minus_02,UTC_minus_01,UTC_00_00,UTC_plus_01,UTC_plus_02,UTC_plus_03,UTC_plus_03_30,UTC_plus_04,UTC_plus_04_30,UTC_plus_05,UTC_plus_05_30,UTC_plus_05_45,UTC_plus_06,UTC_plus_06_30,UTC_plus_07,UTC_plus_08,UTC_plus_08_45,UTC_plus_09,UTC_plus_09_30,UTC_plus_10,UTC_plus_10_30,UTC_plus_11,UTC_plus_12,UTC_plus_12_45,UTC_plus_13,UTC_plus_14
+timezone (Timezone) enum UTC_00_00 UTC_minus_12,UTC_minus_11,UTC_minus_10,UTC_minus_09_30,UTC_minus_09,UTC_minus_08,UTC_minus_07,UTC_minus_06,UTC_minus_05,UTC_minus_04_30,UTC_minus_04,UTC_minus_03_30,UTC_minus_03,UTC_minus_02,UTC_minus_01,UTC_00_00,UTC_plus_01,UTC_plus_02,UTC_plus_03,UTC_plus_03_30,UTC_plus_04,UTC_plus_04_30,UTC_plus_05,UTC_plus_05_30,UTC_plus_05_45,UTC_plus_06,UTC_plus_06_30,UTC_plus_07,UTC_plus_08,UTC_plus_08_45,UTC_plus_09,UTC_plus_09_30,UTC_plus_10,UTC_plus_10_30,UTC_plus_11,UTC_plus_12,UTC_plus_12_45,UTC_plus_13,UTC_plus_14
 
 #This setting adds an hour to the time for daylight savings time.
-better_chat.daylight_saving_time (Daylight Saving Time) bool false
+daylight_saving_time (Daylight Saving Time) bool false
