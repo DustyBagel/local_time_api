@@ -1,9 +1,9 @@
 --Get the settings
-local time_format = minetest.settings:get("better_chat.time_format") or "24_hour"
-local date_order = minetest.settings:get("better_chat.date_order") or "day_month_year"
-local date_separator = minetest.settings:get("better_chat.date_separator") or "slash"
-local timezone = minetest.settings:get("better_chat.timezone") or "UTC_00_00"
-local daylight_saving_time = minetest.settings:get_bool("better_chat.daylight_saving_time") or false
+local time_format = minetest.settings:get("time_format") or "24_hour"
+local date_order = minetest.settings:get("date_order") or "day_month_year"
+local date_separator = minetest.settings:get("date_separator") or "slash"
+local timezone = minetest.settings:get("timezone") or "UTC_00_00"
+local daylight_saving_time = minetest.settings:get_bool("daylight_saving_time") or false
 
 --table for interptiting timezones
 local timezone_offsets = {
