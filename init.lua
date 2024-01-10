@@ -84,5 +84,12 @@ if daylight_saving_time then
     timezone_offset = timezone_offset + 1
 end
 
-local_time = os.date(time_format, os.time() + timezone_offset * 60 * 60)
-local_date = os.date(date_format)
+function get_local_time()
+	local local_time = os.date(time_format, os.time() + timezone_offset * 60 * 60)
+	return local_time
+end
+
+function get_local_date()
+	local local_date = os.date(date_format)
+	return local_date
+end
